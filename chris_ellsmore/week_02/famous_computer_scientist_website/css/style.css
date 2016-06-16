@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+/* --------------------------- HEADER --------------------------- */
+
+header {
+    background-image: url(/Users/pellsmore/projects/02-html+css/homework/famous_computer_scientist_website/Images/blue_header.jpeg);
+    background-repeat: repeat-x;
+}
+h1 {
+    text-align: center;
+    font-family: Oswald;
+}
+nav {
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    background-color: #333;
+    overflow: hidden;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: white;
+}
+nav li {
+    display: inline-block;
+    border-right: 2px solid #bbb;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+li:last-child {
+    border-right: none;
+}
+
+/* --------------------------- BUTTONS --------------------------- */
+
+.buttonOne {
+    display: inline-block;
+    margin: auto;
+    font-size: 10px;
+    text-align: center;
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: grab;
+}
+.buttonOne a {
+    text-decoration: none;
+    color: white;
+}
+.buttonOne:hover {
+    background-color: green;
+}
+.buttonOne:active {
+    background-color: yellow;
+    box-shadow: 0 5px #666;
+}
+
+/* --------------------------- ARTICLE --------------------------- */
+
+article h2, p {
+    text-align: center;
+}
+img, .objectPositioning {
+    display: block;
+    margin: auto;
+}
+
+/* --------------------------- FOOTER --------------------------- */
+footer nav {
+  margin-top: 20px;
+}
+
+/* Same as nav in header

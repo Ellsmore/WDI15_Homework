@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Early Life</title>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h1>Famous Computer Scientists!</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="/Users/pellsmore/projects/02-html+css/homework/famous_computer_scientist_website/index.html">Biographies</a></li>
+                    <li><a href="/Users/pellsmore/projects/02-html+css/homework/famous_computer_scientist_website/interestingFacts.html">Interesting Facts</a></li>
+                    <li><a href="/Users/pellsmore/projects/02-html+css/homework/famous_computer_scientist_website/earlyLife.html">Early Life</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <article>
+            <h2></h2>
+            <h2>Claude Shannon</h2>
+            <p>Shannon was born in Petoskey, Michigan and grew up in Gaylord, Michigan.[4] His father, Claude, Sr. (1862–1934), a descendant of early settlers of New Jersey, was a self-made businessman, and for a while, a Judge of Probate. Shannon's mother,
+                Mabel Wolf Shannon (1890–1945), was a language teacher, and for a number of years she was the principal of Gaylord High School.
+                <br>
+
+                <br>Most of the first 16 years of Shannon's life were spent in Gaylord, where he attended public school, graduating from Gaylord High School in 1932. Shannon showed an inclination towards mechanical and electrical things. His best subjects
+                were science and mathematics, and at home he constructed such devices as models of planes, a radio-controlled model boat and a wireless telegraph system to a friend's house a half-mile away. While growing up, he also worked under Andrew
+                Coltrey as a messenger for the Western Union company.
+                <br>
+
+                <br>His childhood hero was Thomas Edison, who he later learned was a distant cousin. Both were descendants of John Ogden (1609–1682), a colonial leader and an ancestor of many distinguished people.
+                <br>
+
+                <br>Shannon was apolitical and an atheist.[7]</p>
+
+            <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+            <div style='overflow:hidden;height:440px;width:700px; ' class="objectPositioning">
+                <div id='gmap_canvas' style='height:440px;width:700px;'></div>
+                <div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div>
+                <div><small><a href="https://privacypolicytemplate.net">privacy policy example</a></small></div>
+                <style>
+                    #gmap_canvas img {
+                        max-width: none!important;
+                        background: none!important
+                    }
+                </style>
+            </div>
+            <script type='text/javascript'>
+                function init_map() {
+                    var myOptions = {
+                        zoom: 7,
+                        center: new google.maps.LatLng(45.0275126, -84.67475230000002),
+                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                    };
+                    map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+                    marker = new google.maps.Marker({
+                        map: map,
+                        position: new google.maps.LatLng(45.0275126, -84.67475230000002)
+                    });
+                    infowindow = new google.maps.InfoWindow({
+                        content: '<strong>Title</strong><br>Gaylord, Michigan<br>'
+                    });
+                    google.maps.event.addListener(marker, 'click', function() {
+                        infowindow.open(map, marker);
+                    });
+                    infowindow.open(map, marker);
+                }
+                google.maps.event.addDomListener(window, 'load', init_map);
+            </script>
+
+
+            <h2>Richard M. Stallman</h2>
+            <p>Stallman was born to Alice Lippman, a school teacher, and Daniel Stallman, a printing press broker, in 1953 in New York City. He was interested in computers at a young age; when Stallman was a pre-teen at a summer camp, he read manuals for
+                the IBM 7094.[8] From 1967 to 1969, Stallman attended a Columbia University Saturday program for high school students.[8] Stallman was also a volunteer laboratory assistant in the biology department at Rockefeller University. Although
+                he was interested in mathematics and physics, his teaching professor at Rockefeller thought he showed promise as a biologist.[9]
+                <br>
+
+                <br>His first experience with actual computers was at the IBM New York Scientific Center when he was in high school. He was hired for the summer in 1970, following his senior year of high school, to write a numerical analysis program in Fortran.[8]
+                He completed the task after a couple of weeks ("I swore that I would never use FORTRAN again because I despised it as a language compared with other languages") and spent the rest of the summer writing a text editor in APL[10] and a preprocessor
+                for the PL/I programming language on the IBM System/360.[11]</p>
+        </article>
+
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="/Users/pellsmore/projects/02-html+css/homework/famous_computer_scientist_website/index.html">Biographies</a></li>
+                    <li><a href="/Users/pellsmore/projects/02-html+css/homework/famous_computer_scientist_website/interestingFacts.html">Interesting Facts</a></li>
+                    <li><a href="/Users/pellsmore/projects/02-html+css/homework/famous_computer_scientist_website/hometowns.html">Hometowns</a></li>
+            </nav>
+            </ul>
+            </nav>
+        </footer>
+
+    </div>
+</body>
+
+</html>
