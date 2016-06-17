@@ -1,0 +1,188 @@
+.container {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    background: #87CEFA;
+}
+
+}
+img {
+    margin-top: 420px;
+}
+/* ------------------------- GRASS ---------------------------*/
+
+.grass {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    background: #66CD00;
+    margin-top: 640px;
+}
+.dirt {
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    background-color: brown;
+    margin-top: 700px;
+
+
+/* ------------------------- SUN ---------------------------*/
+
+.sunCircle {
+    width: 98px;
+    height: 98px;
+    background: orange;
+    -moz-border-radius: 49px;
+    -webkit-border-radius: 49px;
+    border-radius: 49px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.sun {
+    height: 100px;
+    width: 100px;
+    background: yellow;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.sun:before {
+    height: 100px;
+    width: 100px;
+    background: yellow;
+    content: "";
+    position: absolute;
+    /* Rotate */
+    -moz-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+.sun:after {
+    height: 100px;
+    width: 100px;
+    background: yellow;
+    content: "";
+    position: absolute;
+    /* Rotate */
+    -moz-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+
+/* ------------------------- TREE ---------------------------*/
+
+.treeLeavesOne {
+    width: 0;
+    height: 0;
+    border-bottom: 120px solid green;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    position: absolute;
+    margin-left: 965px;
+    margin-top: 260px;
+}
+.treeLeavesTwo {
+    width: 0;
+    height: 0;
+    border-bottom: 160px solid green;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    position: absolute;
+    margin-left: 925px;
+    margin-top: 310px;
+}
+.treeLeavesThree {
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid green;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    position: absolute;
+    margin-left: 890px;
+    margin-top: 360px;
+}
+.treeTrunk {
+    width: 50px;
+    height: 300px;
+    background: #624e2c;
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 1000px;
+}
+
+/* ----------------------- CLOUD -----------------------------*/
+
+.cloudRectagle {
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    background: white;
+    margin-top: 50px;
+    margin-left: 800px;
+}
+.cloudCircle {
+    width: 98px;
+    height: 98px;
+    background: orange;
+    -moz-border-radius: 49px;
+    -webkit-border-radius: 49px;
+    border-radius: 49px;
+    position: absolute;
+    background: white;
+    margin-top: 52px;
+    margin-left: 750px;
+}
+.cloudCircleTwo {
+    width: 98px;
+    height: 98px;
+    background: orange;
+    -moz-border-radius: 49px;
+    -webkit-border-radius: 49px;
+    border-radius: 49px;
+    position: absolute;
+    background: white;
+    margin-top: 52px;
+    margin-left: 950px;
+}
+.cloudCircleThree {
+    width: 98px;
+    height: 98px;
+    background: orange;
+    -moz-border-radius: 49px;
+    -webkit-border-radius: 49px;
+    border-radius: 49px;
+    position: absolute;
+    background: white;
+    margin-top: 20px;
+    margin-left: 800px;
+}
+.cloudCircleFour {
+    width: 98px;
+    height: 98px;
+    background: orange;
+    -moz-border-radius: 49px;
+    -webkit-border-radius: 49px;
+    border-radius: 49px;
+    position: absolute;
+    background: white;
+    margin-top: 20px;
+    margin-left: 900px;
+}
+.cloudCircleFive {
+    width: 98px;
+    height: 98px;
+    background: orange;
+    -moz-border-radius: 49px;
+    -webkit-border-radius: 49px;
+    border-radius: 49px;
+    position: absolute;
+    background: white;
+    margin-top: 5px;
+    margin-left: 850px;
+}
+//----------------------------------------------------//
